@@ -1,0 +1,30 @@
+{
+  "name": "auth-testing",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "svelte": "^3.42.6",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.9.4",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cookie": "^0.4.1",
+    "@types/jsonwebtoken": "^8.5.5",
+    "bcrypt": "^5.0.1",
+    "cookie": "^0.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "password-validator": "^5.2.1",
+    "uuid": "^8.3.2"
+  }
+}
